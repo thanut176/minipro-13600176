@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1A0EEF219FF55300083D6B /* Big_Explosion_Cut_Off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC1A0EEE219FF55300083D6B /* Big_Explosion_Cut_Off.mp3 */; };
+		CC46738A219F2ED80031B7FF /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC467387219F2ED80031B7FF /* ProgressHUD.m */; };
+		CC46738B219F2ED80031B7FF /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC467388219F2ED80031B7FF /* ProgressHUD.bundle */; };
 		CC7B37E22196053900EAC444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B37E12196053900EAC444 /* AppDelegate.swift */; };
 		CC7B37E42196053900EAC444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B37E32196053900EAC444 /* ViewController.swift */; };
 		CC7B37E72196053900EAC444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B37E52196053900EAC444 /* Main.storyboard */; };
 		CC7B37E92196053B00EAC444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7B37E82196053B00EAC444 /* Assets.xcassets */; };
 		CC7B37EC2196053B00EAC444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B37EA2196053B00EAC444 /* LaunchScreen.storyboard */; };
+		CC7B385121968B9900EAC444 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B385021968B9900EAC444 /* Question.swift */; };
+		CC7B385321968BDE00EAC444 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B385221968BDD00EAC444 /* QuestionBank.swift */; };
+		CCE9949F219F3EB9002DEE8A /* pagehome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9949E219F3EB9002DEE8A /* pagehome.swift */; };
+		CCE994A6219FC0CD002DEE8A /* Underwater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCE994A5219FC0CD002DEE8A /* Underwater.mp3 */; };
+		CCE994A7219FC84E002DEE8A /* FCLamoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE994A2219F4272002DEE8A /* FCLamoon.ttf */; };
+		CCE994A8219FC853002DEE8A /* FCLamoon.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCE994A1219F4252002DEE8A /* FCLamoon.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1A0EEE219FF55300083D6B /* Big_Explosion_Cut_Off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Big_Explosion_Cut_Off.mp3; sourceTree = "<group>"; };
+		CC467387219F2ED80031B7FF /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		CC467388219F2ED80031B7FF /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		CC467389219F2ED80031B7FF /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		CC7B37DE2196053900EAC444 /* Question_13600176.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Question_13600176.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B37E12196053900EAC444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B37E32196053900EAC444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,12 @@
 		CC7B37E82196053B00EAC444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7B37EB2196053B00EAC444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7B37ED2196053B00EAC444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7B385021968B9900EAC444 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CC7B385221968BDD00EAC444 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		CCE9949E219F3EB9002DEE8A /* pagehome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = pagehome.swift; path = ../view/pagehome.swift; sourceTree = "<group>"; };
+		CCE994A1219F4252002DEE8A /* FCLamoon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FCLamoon.otf; sourceTree = "<group>"; };
+		CCE994A2219F4272002DEE8A /* FCLamoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FCLamoon.ttf; sourceTree = "<group>"; };
+		CCE994A5219FC0CD002DEE8A /* Underwater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Underwater.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,56 @@
 		CC7B37E02196053900EAC444 /* Question_13600176 */ = {
 			isa = PBXGroup;
 			children = (
-				CC7B37E12196053900EAC444 /* AppDelegate.swift */,
-				CC7B37E32196053900EAC444 /* ViewController.swift */,
-				CC7B37E52196053900EAC444 /* Main.storyboard */,
-				CC7B37E82196053B00EAC444 /* Assets.xcassets */,
+				CCE994A0219F4241002DEE8A /* font */,
+				CC7B384E21968B5600EAC444 /* view */,
+				CC7B384D21968AFE00EAC444 /* controller */,
+				CC7B384F21968B6C00EAC444 /* model */,
 				CC7B37EA2196053B00EAC444 /* LaunchScreen.storyboard */,
 				CC7B37ED2196053B00EAC444 /* Info.plist */,
+				CCE994A5219FC0CD002DEE8A /* Underwater.mp3 */,
+				CC1A0EEE219FF55300083D6B /* Big_Explosion_Cut_Off.mp3 */,
 			);
 			path = Question_13600176;
+			sourceTree = "<group>";
+		};
+		CC7B384D21968AFE00EAC444 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B37E32196053900EAC444 /* ViewController.swift */,
+				CC7B37E12196053900EAC444 /* AppDelegate.swift */,
+				CCE9949E219F3EB9002DEE8A /* pagehome.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CC7B384E21968B5600EAC444 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B37E82196053B00EAC444 /* Assets.xcassets */,
+				CC7B37E52196053900EAC444 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CC7B384F21968B6C00EAC444 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B385021968B9900EAC444 /* Question.swift */,
+				CC7B385221968BDD00EAC444 /* QuestionBank.swift */,
+				CC467388219F2ED80031B7FF /* ProgressHUD.bundle */,
+				CC467389219F2ED80031B7FF /* ProgressHUD.h */,
+				CC467387219F2ED80031B7FF /* ProgressHUD.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CCE994A0219F4241002DEE8A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				CCE994A1219F4252002DEE8A /* FCLamoon.otf */,
+				CCE994A2219F4272002DEE8A /* FCLamoon.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +157,7 @@
 				TargetAttributes = {
 					CC7B37DD2196053900EAC444 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +184,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE994A6219FC0CD002DEE8A /* Underwater.mp3 in Resources */,
+				CC46738B219F2ED80031B7FF /* ProgressHUD.bundle in Resources */,
 				CC7B37EC2196053B00EAC444 /* LaunchScreen.storyboard in Resources */,
 				CC7B37E92196053B00EAC444 /* Assets.xcassets in Resources */,
 				CC7B37E72196053900EAC444 /* Main.storyboard in Resources */,
+				CCE994A8219FC853002DEE8A /* FCLamoon.otf in Resources */,
+				CC1A0EEF219FF55300083D6B /* Big_Explosion_Cut_Off.mp3 in Resources */,
+				CCE994A7219FC84E002DEE8A /* FCLamoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7B385121968B9900EAC444 /* Question.swift in Sources */,
+				CC7B385321968BDE00EAC444 /* QuestionBank.swift in Sources */,
+				CC46738A219F2ED80031B7FF /* ProgressHUD.m in Sources */,
+				CCE9949F219F3EB9002DEE8A /* pagehome.swift in Sources */,
 				CC7B37E42196053900EAC444 /* ViewController.swift in Sources */,
 				CC7B37E22196053900EAC444 /* AppDelegate.swift in Sources */,
 			);
@@ -282,16 +353,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3ACHT6V8T;
 				INFOPLIST_FILE = Question_13600176/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.thanut.Question-13600176";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.thanut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Question_13600176/Question_13600176-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +375,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3ACHT6V8T;
 				INFOPLIST_FILE = Question_13600176/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.thanut.Question-13600176";
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.thanut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Question_13600176/Question_13600176-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
